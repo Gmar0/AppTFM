@@ -17,11 +17,6 @@ public class ScenesFlow : MonoBehaviour
         
     }
 
-    public void PlayGuestAccess()
-    {
-    SceneManager.LoadScene("Landing",LoadSceneMode.Single);
-    }
-
     public void ScanerAccess()
     {
     SceneManager.LoadScene("Scan",LoadSceneMode.Single);
@@ -32,7 +27,7 @@ public class ScenesFlow : MonoBehaviour
     SceneManager.LoadScene("Landing",LoadSceneMode.Single);
     }
 
-    public void LogInAccess()
+    public void LogInStart()
     {
     SceneManager.LoadScene("LogIn",LoadSceneMode.Single);
     }

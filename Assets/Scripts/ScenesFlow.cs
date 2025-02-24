@@ -27,9 +27,9 @@ public class ScenesFlow : MonoBehaviour
     SceneManager.LoadScene("Landing",LoadSceneMode.Single);
     }
 
-    public void LogInStart()
+    public void GoMAp()
     {
-    SceneManager.LoadScene("LogIn",LoadSceneMode.Single);
+    SceneManager.LoadScene("Map",LoadSceneMode.Single);
     }
 
 }

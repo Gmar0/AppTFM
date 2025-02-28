@@ -4,18 +4,13 @@ using UnityEngine.EventSystems;
 
 public class HidePanelOnClickOutside : MonoBehaviour
 {
-    [SerializeField] GameObject panel;
-
     void Update()
 {
     if (Input.GetMouseButtonDown(0))
     {
-        Debug.Log(Input.GetMouseButtonDown(0));
-
         if (!IsPointerOverUIObject())
-            panel.SetActive(false);
+            this.gameObject.SetActive(false);
     }
-        
 }
 
     private bool IsPointerOverUIObject()
@@ -28,15 +23,11 @@ public class HidePanelOnClickOutside : MonoBehaviour
     List<RaycastResult> results = new List<RaycastResult>();
     EventSystem.current.RaycastAll(eventData, results);
 
-    Debug.Log(results.Count);
-    Debug.Log(results);
-
     for (int i = 0; i < results.Count; i++)
     {
-        Debug.Log(results[i].gameObject);
+       if (results[i].gameObject.name == this.gameObject.name)
+           return true;
     }
-
-
-    return results.Count > 0; // Devuelve true si tocó UI
-}
+        return false;
+    }
 }

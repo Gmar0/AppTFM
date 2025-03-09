@@ -6,7 +6,7 @@ public class HidePanelOnClickOutside : MonoBehaviour
 {
     void Update()
 {
-    if (Input.GetMouseButtonDown(0))
+    if (Input.touchCount > 0)
     {
         if (!IsPointerOverUIObject())
             this.gameObject.SetActive(false);

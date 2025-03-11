@@ -32,4 +32,9 @@ public class ScenesFlow : MonoBehaviour
     SceneManager.LoadScene("Map",LoadSceneMode.Single);
     }
 
+
+    public void enlaceInternet()
+    {
+        Application.OpenURL("https://www.avilaturismo.com/que-ver");
+    }
 }

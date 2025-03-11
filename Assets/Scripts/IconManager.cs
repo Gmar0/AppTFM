@@ -14,11 +14,45 @@ public class IconManager : MonoBehaviour
     [SerializeField] Image iconSanPedro;
     [SerializeField] Sprite modeloVisto_SP;
 
-    [Header("ICONO CATEDRAL\n")]
-    public string nameModelCatedral;
-    [SerializeField] Image iconCatedral;
-    [SerializeField] Sprite modeloVisto_C;
+    [Header("ICONO ADOLFO SUAREZ\n")]
+    public string nameModelAdolfo;
+    [SerializeField] Image iconAdolfo;
+    [SerializeField] Sprite modeloVisto_A;
 
+    [Header("ICONO VERRACO 1\n")]
+    public string nameModelVerraco1;
+    [SerializeField] Image iconVerraco1;
+    [SerializeField] Sprite modeloVisto_V1;
+
+    [Header("ICONO VERRACO 2\n")]
+    public string nameModelVerraco2;
+    [SerializeField] Image iconVerraco2;
+    [SerializeField] Sprite modeloVisto_V2;
+
+    [Header("ICONO VERRACO 3\n")]
+    public string nameModelVerraco3;
+    [SerializeField] Image iconVerraco3;
+    [SerializeField] Sprite modeloVisto_V3;
+
+    [Header("ICONO VERRACO 4\n")]
+    public string nameModelVerraco4;
+    [SerializeField] Image iconVerraco4;
+    [SerializeField] Sprite modeloVisto_V4;
+
+    [Header("ICONO VERRACO 5\n")]
+    public string nameModelVerraco5;
+    [SerializeField] Image iconVerraco5;
+    [SerializeField] Sprite modeloVisto_V5;
+
+    [Header("ICONO VERRACO 6\n")]
+    public string nameModelVerraco6;
+    [SerializeField] Image iconVerraco6;
+    [SerializeField] Sprite modeloVisto_V6;
+
+    [Header("ICONO VERRACO 7\n")]
+    public string nameModelVerraco7;
+    [SerializeField] Image iconVerraco7;
+    [SerializeField] Sprite modeloVisto_V7;
 
     private void OnEnable()
     {
@@ -39,10 +73,52 @@ public class IconManager : MonoBehaviour
             iconSanPedro.sprite = modeloVisto_SP;
         }
 
-        if (PlayerPrefs.GetInt(nameModelCatedral.ToLower(), 0) != 0)
+        if (PlayerPrefs.GetInt(nameModelAdolfo.ToLower(), 0) != 0)
         {
-            iconCatedral.color = Color.white;
-            iconCatedral.sprite = modeloVisto_C;
+            iconAdolfo.color = Color.white;
+            iconAdolfo.sprite = modeloVisto_A;
+        }
+
+        if (PlayerPrefs.GetInt(nameModelVerraco1.ToLower(), 0) != 0)
+        {
+            iconVerraco1.color = Color.white;
+            iconVerraco1.sprite = modeloVisto_V1;
+        }
+
+        if (PlayerPrefs.GetInt(nameModelVerraco2.ToLower(), 0) != 0)
+        {
+            iconVerraco2.color = Color.white;
+            iconVerraco2.sprite = modeloVisto_V2;
+        }
+
+        if (PlayerPrefs.GetInt(nameModelVerraco3.ToLower(), 0) != 0)
+        {
+            iconVerraco3.color = Color.white;
+            iconVerraco3.sprite = modeloVisto_V3;
+        }
+
+        if (PlayerPrefs.GetInt(nameModelVerraco4.ToLower(), 0) != 0)
+        {
+            iconVerraco4.color = Color.white;
+            iconVerraco4.sprite = modeloVisto_V4;
+        }
+
+        if (PlayerPrefs.GetInt(nameModelVerraco5.ToLower(), 0) != 0)
+        {
+            iconVerraco5.color = Color.white;
+            iconVerraco5.sprite = modeloVisto_V5;
+        }
+
+        if (PlayerPrefs.GetInt(nameModelVerraco6.ToLower(), 0) != 0)
+        {
+            iconVerraco6.color = Color.white;
+            iconVerraco6.sprite = modeloVisto_V6;
+        }
+
+        if (PlayerPrefs.GetInt(nameModelVerraco7.ToLower(), 0) != 0)
+        {
+            iconVerraco7.color = Color.white;
+            iconVerraco7.sprite = modeloVisto_V7;
         }
     }
 }

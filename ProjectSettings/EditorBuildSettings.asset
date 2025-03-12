@@ -12,8 +12,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Scan.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/Map.unity
-    guid: 2cf65900e7bceb542b5bb07956530761
+    path: Assets/Scenes/MAPA.unity
+    guid: 7539a7d1d0b9a5f4e9ba5e6b4a3654d1
   - enabled: 1
     path: Assets/Scenes/4P_Model.unity
     guid: a92279ede1da7db4c9db8a768d34bc8d
@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/V_Model.unity
     guid: a2fef3fc215266445bf9a4b0554392bf
+  - enabled: 1
+    path: Assets/Scenes/SP_Model.unity
+    guid: 5e6e4aae81ac02c40b09029963c4b866
   m_configObjects: {}

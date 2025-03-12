@@ -29,7 +29,7 @@ public class ScenesFlow : MonoBehaviour
 
     public void GoMAp()
     {
-    SceneManager.LoadScene("Map",LoadSceneMode.Single);
+    SceneManager.LoadScene("MAPA",LoadSceneMode.Single);
     }
 
     public void Show_4PModel()
@@ -39,13 +39,13 @@ public class ScenesFlow : MonoBehaviour
 
     public void Show_AModel()
     {
-    SceneManager.LoadScene("A_Modelap",LoadSceneMode.Single);
+    SceneManager.LoadScene("A_Model",LoadSceneMode.Single);
     }
 
-    /*public void Show_SPModel()
+    public void Show_SPModel()
     {
     SceneManager.LoadScene("SP_Model",LoadSceneMode.Single);
-    }*/
+    }
 
     public void Show_VModel()
     {

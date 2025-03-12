@@ -3033,7 +3033,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Ver en el mapa
+  m_text: Ver mapa
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 42b9179e6d240d74aa87041bd6ea22ba, type: 2}
   m_sharedMaterial: {fileID: -6415865432383052877, guid: 42b9179e6d240d74aa87041bd6ea22ba, type: 2}
@@ -3060,8 +3060,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 32
-  m_fontSizeBase: 32
+  m_fontSize: 38
+  m_fontSizeBase: 38
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3167,7 +3167,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Ver en el mapa
+  m_text: Ver mapa
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 42b9179e6d240d74aa87041bd6ea22ba, type: 2}
   m_sharedMaterial: {fileID: -6415865432383052877, guid: 42b9179e6d240d74aa87041bd6ea22ba, type: 2}
@@ -3194,8 +3194,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 32
-  m_fontSizeBase: 32
+  m_fontSize: 38
+  m_fontSizeBase: 38
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3294,15 +3294,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.26415092, g: 0.26415092, b: 0.26415092, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: dd0e17f19ab979f4797350d9adff90c0, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -5991,13 +5991,14 @@ GameObject:
   - component: {fileID: 730650655}
   - component: {fileID: 730650654}
   - component: {fileID: 730650653}
+  - component: {fileID: 730650657}
   m_Layer: 5
   m_Name: CanvasGeneral
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &730650653
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6086,6 +6087,82 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &730650657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 730650652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba07687e51d34664682a477f5d76bdee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameModel4Postes: 4Postes
+  icon4Postes: {fileID: 1774224957}
+  modeloVisto_4P: {fileID: 21300000, guid: 42da1828e5bbfef45b2c68fef8d66c11, type: 3}
+  nameModelSanPedro: SanPedro
+  iconSanPedro: {fileID: 917486392}
+  modeloVisto_SP: {fileID: 21300000, guid: d7f9bd5c1cc10584fa2fb4bc75c78eb9, type: 3}
+  nameModelAdolfo: Adolfo
+  iconAdolfo: {fileID: 818337072}
+  modeloVisto_A: {fileID: 21300000, guid: 40ddb7545e21a014ea5295b08a5c91e7, type: 3}
+  image4Postes: {fileID: 0}
+  imageVista_4P: {fileID: 0}
+  imageSanPedro: {fileID: 0}
+  imageVista_SP: {fileID: 0}
+  imageAdolfo: {fileID: 0}
+  imageVista_A: {fileID: 0}
+  nameModelVerraco1: 
+  iconVerraco1: {fileID: 0}
+  modeloVisto_V1: {fileID: 0}
+  V1_LockPanel: {fileID: 0}
+  V1_UNLockPanel: {fileID: 0}
+  V1_LockImage: {fileID: 0}
+  V1_UNLockImage: {fileID: 0}
+  nameModelVerraco2: 
+  iconVerraco2: {fileID: 0}
+  modeloVisto_V2: {fileID: 0}
+  V2_LockPanel: {fileID: 0}
+  V2_UNLockPanel: {fileID: 0}
+  V2_LockImage: {fileID: 0}
+  V2_UNLockImage: {fileID: 0}
+  nameModelVerraco3: 
+  iconVerraco3: {fileID: 0}
+  modeloVisto_V3: {fileID: 0}
+  V3_LockPanel: {fileID: 0}
+  V3_UNLockPanel: {fileID: 0}
+  V3_LockImage: {fileID: 0}
+  V3_UNLockImage: {fileID: 0}
+  nameModelVerraco4: 
+  iconVerraco4: {fileID: 0}
+  modeloVisto_V4: {fileID: 0}
+  V4_LockPanel: {fileID: 0}
+  V4_UNLockPanel: {fileID: 0}
+  V4_LockImage: {fileID: 0}
+  V4_UNLockImage: {fileID: 0}
+  nameModelVerraco5: 
+  iconVerraco5: {fileID: 0}
+  modeloVisto_V5: {fileID: 0}
+  V5_LockPanel: {fileID: 0}
+  V5_UNLockPanel: {fileID: 0}
+  V5_LockImage: {fileID: 0}
+  V5_UNLockImage: {fileID: 0}
+  nameModelVerraco6: 
+  iconVerraco6: {fileID: 0}
+  modeloVisto_V6: {fileID: 0}
+  V6_LockPanel: {fileID: 0}
+  V6_UNLockPanel: {fileID: 0}
+  V6_LockImage: {fileID: 0}
+  V6_UNLockImage: {fileID: 0}
+  nameModelVerraco7: 
+  iconVerraco7: {fileID: 0}
+  modeloVisto_V7: {fileID: 0}
+  V7_LockPanel: {fileID: 0}
+  V7_UNLockPanel: {fileID: 0}
+  V7_LockImage: {fileID: 0}
+  V7_UNLockImage: {fileID: 0}
 --- !u!1 &746391707
 GameObject:
   m_ObjectHideFlags: 0
@@ -6323,14 +6400,14 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: SanPedroFrente
+  mTrackableName: SPedro_Unlock
   mInitializedInEditor: 1
   mDataSetPath: 
-  mAspectRatio: 0.69454545
+  mAspectRatio: 1
   mImageTargetType: 3
   mWidth: 0.20000002
-  mHeight: 0.1389091
-  mRuntimeTexture: {fileID: 2800000, guid: dfa1855ba9795e4488fc6a09afb006bc, type: 3}
+  mHeight: 0.20000002
+  mRuntimeTexture: {fileID: 2800000, guid: 1ee6e365838250848a94e6ad2157ebc5, type: 3}
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
@@ -6367,7 +6444,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 810372572}
   mHiddenRoot: {fileID: 0}
-  mTargetName: SanPedroFrente
+  mTargetName: SPedro_Unlock
   mDatasetName: 
   mCastedBehaviour: {fileID: 810372572}
   mMeshFilter: {fileID: 0}
@@ -6447,6 +6524,93 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 818337070}
   m_CullTransparentMesh: 1
+--- !u!1001 &819409226
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2100810758}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9bc927a380234d5478c7f9cb66972e1f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9bc927a380234d5478c7f9cb66972e1f, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9bc927a380234d5478c7f9cb66972e1f, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9bc927a380234d5478c7f9cb66972e1f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -540
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9bc927a380234d5478c7f9cb66972e1f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1169.972
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9bc927a380234d5478c7f9cb66972e1f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.194
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9bc927a380234d5478c7f9cb66972e1f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9bc927a380234d5478c7f9cb66972e1f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9bc927a380234d5478c7f9cb66972e1f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9bc927a380234d5478c7f9cb66972e1f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9bc927a380234d5478c7f9cb66972e1f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9bc927a380234d5478c7f9cb66972e1f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9bc927a380234d5478c7f9cb66972e1f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9bc927a380234d5478c7f9cb66972e1f, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 9bc927a380234d5478c7f9cb66972e1f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8192c859ffcac1a48a8808efb212f83c, type: 2}
+    - target: {fileID: 919132149155446097, guid: 9bc927a380234d5478c7f9cb66972e1f, type: 3}
+      propertyPath: m_Name
+      value: 4Postes_MODEL
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9bc927a380234d5478c7f9cb66972e1f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9bc927a380234d5478c7f9cb66972e1f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1320274916}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9bc927a380234d5478c7f9cb66972e1f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1320274915}
+  m_SourcePrefab: {fileID: 100100000, guid: 9bc927a380234d5478c7f9cb66972e1f, type: 3}
 --- !u!1 &836995514
 GameObject:
   m_ObjectHideFlags: 0
@@ -6657,14 +6821,14 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: Adolfo
+  mTrackableName: Adolfo_Unlocked
   mInitializedInEditor: 1
   mDataSetPath: 
-  mAspectRatio: 1.5003663
+  mAspectRatio: 1
   mImageTargetType: 3
-  mWidth: 0.13330078
+  mWidth: 0.2
   mHeight: 0.2
-  mRuntimeTexture: {fileID: 0}
+  mRuntimeTexture: {fileID: 2800000, guid: af114c1ba2274ff4c83f99b2542a91b7, type: 3}
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
@@ -6703,7 +6867,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 836995517}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Adolfo
+  mTargetName: Adolfo_Unlocked
   mDatasetName: 
   mCastedBehaviour: {fileID: 836995517}
   mMeshFilter: {fileID: 0}
@@ -6974,18 +7138,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\nEn la margen izquierda del r\xEDo Adaja, dominando la ciudad desde Poniente,
-    se erige el humilladero (peque\xF1a ermita a las afueras de la poblaci\xF3n)
-    de San Sebasti\xE1n, popularmente conocido como Los Cuatro Postes. Y es que el
-    conjunto est\xE1 constituido por cuatro monol\xEDticas columnas d\xF3ricas unidas
-    por un arquitrabe, que ostenta el escudo de la ciudad; en el centro una cruz
-    gran\xEDtica.\n\nSe construye en 1566, habiendo autores que defienden que se
-    levant\xF3 donde en \xE9poca romana se erigir\xEDa un peque\xF1o templo. Tambi\xE9n
-    hay quienes afirman que se construy\xF3 para rememorar el lugar en que Francisco
-    de Cepeda, t\xEDo de Teresa de Jes\xFAs, encontr\xF3 a la santa y a su hermano
-    Rodrigo cuando estos huyeron para sufrir martirio en tierra de moros.\n\nEl lugar
-    constituye un mirador \xFAnico sobre la ciudad amurallada, especialmente al atardecer,
-    cuando el d\xEDa da paso a la noche y la muralla queda iluminada artificialmente.\n\n"
+  m_text: "\nAunque naci\xF3 en Cebreros (\xC1vila), su familia resid\xEDa en la
+    capital y aqu\xED pas\xF3 su infancia y juventud. \n\nLicenciado en Derecho por
+    la Universidad de Salamanca y doctor por la Complutense de Madrid, fue en la
+    capital del estado donde comenz\xF3 a desempe\xF1ar diversos puestos pol\xEDticos
+    auspiciado por el que hab\xEDa sido gobernador civil de \xC1vila, Fernando Herrero.
+    \n\nTambi\xE9n relacionado con su origen es que fuera nombrado procurador en
+    Cortes por \xC1vila en 1967. La escalada definitiva en su ascensi\xF3n fue su
+    designaci\xF3n como Director General de RTVE de 1969 a 1973. A partir de este
+    momento y con la transici\xF3n hacia la democracia como tel\xF3n de fondo, forma
+    parte del gobierno que se instaura en 1975 tras la muerte de Franco."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 42b9179e6d240d74aa87041bd6ea22ba, type: 2}
   m_sharedMaterial: {fileID: -6415865432383052877, guid: 42b9179e6d240d74aa87041bd6ea22ba, type: 2}
@@ -7940,7 +8102,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1108292668}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2100810754}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 711559363}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 730650652}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1108292668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8168,7 +8366,7 @@ Transform:
   m_GameObject: {fileID: 1115472720}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.024, z: -0.168}
+  m_LocalPosition: {x: -0.007, y: 0.024, z: -0.168}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8232,17 +8430,14 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "\nEn la margen izquierda del r\xEDo Adaja, dominando la ciudad desde Poniente,
-    se erige el humilladero (peque\xF1a ermita a las afueras de la poblaci\xF3n)
-    de San Sebasti\xE1n, popularmente conocido como Los Cuatro Postes. Y es que el
-    conjunto est\xE1 constituido por cuatro monol\xEDticas columnas d\xF3ricas unidas
-    por un arquitrabe, que ostenta el escudo de la ciudad; en el centro una cruz
-    gran\xEDtica.\n\nSe construye en 1566, habiendo autores que defienden que se
-    levant\xF3 donde en \xE9poca romana se erigir\xEDa un peque\xF1o templo. Tambi\xE9n
-    hay quienes afirman que se construy\xF3 para rememorar el lugar en que Francisco
-    de Cepeda, t\xEDo de Teresa de Jes\xFAs, encontr\xF3 a la santa y a su hermano
-    Rodrigo cuando estos huyeron para sufrir martirio en tierra de moros.\n\nEl lugar
-    constituye un mirador \xFAnico sobre la ciudad amurallada, especialmente al atardecer,
-    cuando el d\xEDa da paso a la noche y la muralla queda iluminada artificialmente.\n\n"
+    se erige el humilladero de San Sebasti\xE1n, popularmente conocido como Los Cuatro
+    Postes, construido en 1566. El conjunto est\xE1 formado por cuatro monol\xEDticas
+    columnas d\xF3ricas unidas por un arquitrabe, que ostenta el escudo de la ciudad;
+    en el centro una cruz gran\xEDtica. El lugar constituye un mirador \xFAnico sobre
+    la ciudad amurallada.\n\nHay quienes afirman que se construy\xF3 para rememorar
+    el lugar en que Francisco de Cepeda, t\xEDo de Teresa de Jes\xFAs, encontr\xF3
+    a la santa y a su hermano Rodrigo cuando estos huyeron para sufrir martirio en
+    tierra de moros.\n\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 42b9179e6d240d74aa87041bd6ea22ba, type: 2}
   m_sharedMaterial: {fileID: -6415865432383052877, guid: 42b9179e6d240d74aa87041bd6ea22ba, type: 2}
@@ -8883,6 +9078,52 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1292076398}
   m_CullTransparentMesh: 1
+--- !u!1 &1320274913 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 9bc927a380234d5478c7f9cb66972e1f, type: 3}
+  m_PrefabInstance: {fileID: 819409226}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1320274914 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9bc927a380234d5478c7f9cb66972e1f, type: 3}
+  m_PrefabInstance: {fileID: 819409226}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1320274915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1320274913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c73c1ab94e28d244827af556dca1ed2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Use:
+    Filter: 0
+    IgnoreStartedOverGui: 1
+    RequiredFingerCount: 0
+    RequiredMouseButtons: 0
+    RequiredSelectable: {fileID: 0}
+  _camera: {fileID: 0}
+  relative: 0
+  sensitivity: 1
+  damping: -1
+  remainingScale: {x: 0, y: 0, z: 0}
+--- !u!114 &1320274916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1320274913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76d6a89023183544e8d10752a0b88343, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 0.2
 --- !u!1 &1336229331
 GameObject:
   m_ObjectHideFlags: 0
@@ -9966,15 +10207,15 @@ RectTransform:
   m_GameObject: {fileID: 1493810201}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.89394, y: 0.89394, z: 0.89394}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 609973296}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -949}
-  m_SizeDelta: {x: 616, y: 408}
+  m_AnchoredPosition: {x: -6, y: -858}
+  m_SizeDelta: {x: 814.8356, y: 539.6963}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1493810203
 MonoBehaviour:
@@ -11206,7 +11447,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Ver en el mapa
+  m_text: Ver mapa
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 42b9179e6d240d74aa87041bd6ea22ba, type: 2}
   m_sharedMaterial: {fileID: -6415865432383052877, guid: 42b9179e6d240d74aa87041bd6ea22ba, type: 2}
@@ -11233,8 +11474,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 32
-  m_fontSizeBase: 32
+  m_fontSize: 38
+  m_fontSizeBase: 38
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -11776,18 +12017,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\nEn la margen izquierda del r\xEDo Adaja, dominando la ciudad desde Poniente,
-    se erige el humilladero (peque\xF1a ermita a las afueras de la poblaci\xF3n)
-    de San Sebasti\xE1n, popularmente conocido como Los Cuatro Postes. Y es que el
-    conjunto est\xE1 constituido por cuatro monol\xEDticas columnas d\xF3ricas unidas
-    por un arquitrabe, que ostenta el escudo de la ciudad; en el centro una cruz
-    gran\xEDtica.\n\nSe construye en 1566, habiendo autores que defienden que se
-    levant\xF3 donde en \xE9poca romana se erigir\xEDa un peque\xF1o templo. Tambi\xE9n
-    hay quienes afirman que se construy\xF3 para rememorar el lugar en que Francisco
-    de Cepeda, t\xEDo de Teresa de Jes\xFAs, encontr\xF3 a la santa y a su hermano
-    Rodrigo cuando estos huyeron para sufrir martirio en tierra de moros.\n\nEl lugar
-    constituye un mirador \xFAnico sobre la ciudad amurallada, especialmente al atardecer,
-    cuando el d\xEDa da paso a la noche y la muralla queda iluminada artificialmente.\n\n"
+  m_text: "\nDeclarada Monumento Nacional en 1914 preside la plaza del Mercado Grande,
+    la bas\xEDlica de San Vicente. En su atrio los monarcas juraron respetar los
+    fueros de Castilla, lo que denota la importancia de esta iglesia en el per\xEDodo
+    de mayor relevancia pol\xEDtica de la ciudad.\r\n\r\nIniciada en el del S.XII
+    y concluida ya en el S.XIII, tras un periodo en el que las obras estuvieron paralizadas,
+    en la arquitectura y en la decoraci\xF3n se observa una interesante evoluci\xF3n,
+    fruto de esta dilatada construcci\xF3n.\n\nEn el interior destacan las tablas
+    distribuidas por los muros de las naves, los altares renacentistas, el retablo
+    de la capilla mayor, y sus rejas.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 42b9179e6d240d74aa87041bd6ea22ba, type: 2}
   m_sharedMaterial: {fileID: -6415865432383052877, guid: 42b9179e6d240d74aa87041bd6ea22ba, type: 2}
@@ -12113,15 +12351,15 @@ RectTransform:
   m_GameObject: {fileID: 1789853079}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.89394, y: 0.89394, z: 0.89394}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 416884865}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -949}
-  m_SizeDelta: {x: 616, y: 408}
+  m_AnchoredPosition: {x: 0, y: -818}
+  m_SizeDelta: {x: 844.4495, y: 559.3107}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1789853081
 MonoBehaviour:
@@ -12503,17 +12741,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1828451407}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.89394, y: 0.89394, z: 0.89394}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 711559364}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -949}
-  m_SizeDelta: {x: 616, y: 408}
+  m_AnchoredPosition: {x: 0, y: -786.98975}
+  m_SizeDelta: {x: 836.3753, y: 553.9653}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1828451409
 MonoBehaviour:
@@ -13702,14 +13940,14 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: postes6
+  mTrackableName: 4Postes_Unlock
   mInitializedInEditor: 1
   mDataSetPath: 
-  mAspectRatio: 0.6666667
+  mAspectRatio: 1
   mImageTargetType: 3
   mWidth: 0.2
-  mHeight: 0.13333334
-  mRuntimeTexture: {fileID: 2800000, guid: baf781db5c7a83b4eb2cdb3a28a733af, type: 3}
+  mHeight: 0.2
+  mRuntimeTexture: {fileID: 2800000, guid: 38b8978a3886c4c4cb7957e8ab5eb527, type: 3}
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
@@ -13746,7 +13984,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1941086572}
   mHiddenRoot: {fileID: 0}
-  mTargetName: postes6
+  mTargetName: 4Postes_Unlock
   mDatasetName: 
   mCastedBehaviour: {fileID: 1941086572}
   mMeshFilter: {fileID: 0}
@@ -14471,6 +14709,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 414027648}
+  - {fileID: 1320274914}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -14559,12 +14798,6 @@ SceneRoots:
   - {fileID: 940776975}
   - {fileID: 983372439}
   - {fileID: 1115472725}
-  - {fileID: 1941086573}
-  - {fileID: 836995518}
-  - {fileID: 810372573}
-  - {fileID: 730650656}
-  - {fileID: 941071634}
-  - {fileID: 2100810758}
   - {fileID: 928720061}
   - {fileID: 1795661267}
   - {fileID: 519268342}
@@ -14572,3 +14805,9 @@ SceneRoots:
   - {fileID: 1361163318}
   - {fileID: 1543843983}
   - {fileID: 178301677}
+  - {fileID: 1941086573}
+  - {fileID: 836995518}
+  - {fileID: 810372573}
+  - {fileID: 730650656}
+  - {fileID: 941071634}
+  - {fileID: 2100810758}

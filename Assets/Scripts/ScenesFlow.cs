@@ -32,9 +32,49 @@ public class ScenesFlow : MonoBehaviour
     SceneManager.LoadScene("Map",LoadSceneMode.Single);
     }
 
-
-    public void enlaceInternet()
+    public void Show_4PModel()
     {
-        Application.OpenURL("https://www.avilaturismo.com/que-ver");
+    SceneManager.LoadScene("4P_Model",LoadSceneMode.Single);
+    }
+
+    public void Show_AModel()
+    {
+    SceneManager.LoadScene("A_Modelap",LoadSceneMode.Single);
+    }
+
+    /*public void Show_SPModel()
+    {
+    SceneManager.LoadScene("SP_Model",LoadSceneMode.Single);
+    }*/
+
+    public void Show_VModel()
+    {
+    SceneManager.LoadScene("V_Model",LoadSceneMode.Single);
+    }
+
+
+    public void enlaceVerrTiemblo()
+    {
+        Application.OpenURL("https://museodeavila.com/pieza/verraco/");
+    }
+
+    public void enlaceVerracos()
+    {
+        Application.OpenURL("https://museodeavila.com/audiovisuales/video-verracos-y-cistas-de-martiherrero/");
+    }
+
+    public void enlaceSanPedro()
+    {
+        Application.OpenURL("https://www.avilaturismo.com/que-ver/san-pedro");
+    }
+
+    public void enlace4Postes()
+    {
+        Application.OpenURL("https://www.avilaturismo.com/que-ver/los-cuatro-postes");
+    }
+
+    public void enlaceAdolfoS()
+    {
+        Application.OpenURL("https://www.avilaturismo.com/personajes-historicos/adolfo-suarez");
     }
 }

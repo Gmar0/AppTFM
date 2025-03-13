@@ -29,7 +29,7 @@ public class ScenesFlow : MonoBehaviour
 
     public void GoMAp()
     {
-    SceneManager.LoadScene("MAPA",LoadSceneMode.Single);
+    SceneManager.LoadScene("Map2",LoadSceneMode.Single);
     }
 
     public void Show_4PModel()
